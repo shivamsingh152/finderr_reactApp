@@ -3,7 +3,6 @@ import React from 'react';
 const Card = () => {
   return (
     <>
-    <div className='container'>
     <div className="box-container">
     <div className='box'>
     <p className='text-on-image'>kurta</p>
@@ -42,7 +41,7 @@ const Card = () => {
      alt="img" className='rounded-corners' />
     </div>
     </div>
-    </div>
+    
     
     </>
   )
