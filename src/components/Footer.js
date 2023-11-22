@@ -7,10 +7,10 @@ const Footer = () => {
     <span>
     <i className="fa fa-sort"></i> Sort | <i class="fa fa-filter"></i> Filter
      <i class="fa-solid fa-bars-filter"></i>
-     </span>
+    </span>
     </div>
-    <div>
-     <span className='heading'>Finderr</span>    
+    <div className='heading'>
+      <span>Finderr </span>
    </div> 
    </>
   )

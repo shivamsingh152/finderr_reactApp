@@ -3,11 +3,12 @@ import React from 'react';
 const Header = () => {
   return (
     <>
-     <div>
-      <span className='heading'>Finderr</span>    
+     <div className='heading'>
+      <span>Finderr</span> 
     </div> 
-
-    <div id="carouselExampleDark" className="carousel carousel-dark slide mt-2 my-3">
+   
+   <div className='slidder'>
+  <div id="carouselExampleDark" className="carousel carousel-dark slide my-1">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -35,6 +36,7 @@ const Header = () => {
     <span className="carousel-control-next-icon" aria-hidden="true"></span>
     <span className="visually-hidden">Next</span>
   </button>
+</div>
 </div>
     </>
   )

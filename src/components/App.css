@@ -1,11 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 .heading {
     display: flex;
     justify-content: center;
+    text-align: center;
     color: blue;
     font-size: 50px;
-    font-weight: 100;
-    font-family: fantasy;
-    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    margin-right: 50px;
+    margin-left: 20px;
+
 }
 .box-container{
     display: grid;
@@ -13,16 +21,18 @@
     max-width: 1200px;
     margin: auto;
     gap: 5px; 
+    padding: 0px 0px;
 } 
 .box{
-    display:block;
+    display:grid;
     box-shadow: 3px #ffff;
     border-radius: 30px;
     text-align: center;
     margin: auto;
-    padding: 10px 20px;
+    padding: 0px 0px;
     cursor: pointer;
     position: relative;
+    text-align: center;
  } 
 img{
     height: 350px;
@@ -32,24 +42,32 @@ img.rounded-corners{
     border-radius: 30px;
 }
 .text-on-image{
-    font-weight: bold;
-    font-size: 20px;
-    color:white;
-    margin: 0;
-    left: 50%;
-    right: 50%;
-    justify-content: center; 
     position: absolute;
+    color:white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    /* left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;  */
+    /* padding: 0;
+    left: 50%;
+    right: 50%;  */
 } 
 p{
     text-transform: uppercase;
 }
 .footer{
     display: flex;
-     width: 100%;
+    width: 100%;
     position: sticky;
-    /* margin: auto;
-    padding: auto; */
+    margin: auto;
+    padding: 10px;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -58,19 +76,22 @@ p{
     bottom: 10px;
     font-size: 20px;
 }
-.carousel{
+.slidder{
     height: 30%;
-    width: 640px;
+    /* max-width: 90%; */
     /* display: flex;
     justify-content: center;
     align-items: center; */
     margin: auto;
 }
-.carousel img{
-    width:100%;
+.slidder img{
+    width: 100%;
 }
-
+@media (min-width: 600px) {
+    .box-container { grid-template-columns: repeat(2, 1fr); }
+  }
+@media (min-width: 900px) {
+    .box-container { grid-template-columns: repeat(3, 1fr); }
+  }
   
-  
-
  
