@@ -7,7 +7,7 @@ const Header = () => {
       <span>Finderr</span> 
     </div> 
    
-   <div className='slidder'>
+  {/* <div className='slidder'>
   <div id="carouselExampleDark" className="carousel carousel-dark slide my-1">
   <div className="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,8 +37,9 @@ const Header = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-</div>
-    </>
+</div> */}
+
+</>
   )
 }
 
