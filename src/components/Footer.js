@@ -6,12 +6,11 @@ const Footer = () => {
     <div className="footer">
     <span>
     <i className="fa fa-sort"></i> Sort | <i class="fa fa-filter"></i> Filter
-     <i class="fa-solid fa-bars-filter"></i>
     </span>
     </div>
-    <div className='heading'>
-      <span>Finderr </span>
-   </div> 
+    <footer>
+      Finderr
+   </footer> 
    </>
   )
 }
